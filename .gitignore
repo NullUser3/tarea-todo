@@ -1,0 +1,40 @@
+# ===== FRONTEND (CRA) =====
+/frontend/node_modules/
+/frontend/build/
+/frontend/.env
+/frontend/.DS_Store
+
+# Yarn (optional)
+/frontend/yarn.lock
+/frontend/.yarn/
+
+# ===== BACKEND (Spring Boot) =====
+/backend/target/
+/backend/.env
+/backend/.DS_Store
+
+# Maven wrapper (binary file)
+/backend/.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+
+# VS Code
+.vscode/
+
+# Eclipse / Spring Tool Suite (STS)
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# NetBeans (optional)
+/nbproject/
+.nb-gradle/
+
+# OS files
+.DS_Store
+Thumbs.db

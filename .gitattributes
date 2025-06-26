@@ -1,0 +1,8 @@
+# Normalize all text files to use LF
+* text=auto
+
+# Make sure shell scripts use Unix line endings
+/backend/mvnw text eol=lf
+
+# Make sure Windows batch files use CRLF
+/backend/*.cmd text eol=crlf
