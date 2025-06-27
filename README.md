@@ -30,8 +30,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/NullUser3/tarea-todo">
+    <img src="frontend/src/images/to-do-listpink.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Tarea</h3>
