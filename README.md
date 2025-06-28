@@ -173,9 +173,47 @@ Backend (default): http://localhost:8080
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+🔐 Sign Up or Log In
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Access your personalized to-do list by creating an account or logging in securely using JWT authentication.
+
+![Login Page](https://github.com/NullUser3/tarea-todo/blob/master/screenshots/screencapture-localhost-3000-login-2025-06-28-03_12_24.png)
+
+🗂️ Create Custom Lists
+
+Easily organize tasks by creating your own lists (e.g., Work, Personal, Shopping).
+
+![Add List](https://github.com/NullUser3/tarea-todo/blob/master/screenshots/screencapture-localhost-3000-lists-deefa728-72d8-43b1-8753-2725076547a0-2025-06-28-04_00_58.png)
+
+🕒 Add Tasks with Detailed Options
+
+When adding a task, you can set:
+
+Recurrence (e.g., daily, weekly)
+
+Due Date & Time
+
+Reminders
+
+![Task Options](https://github.com/NullUser3/tarea-todo/blob/master/screenshots/screencapture-localhost-3000-lists-deefa728-72d8-43b1-8753-2725076547a0-2025-06-28-04_01_24.png)
+
+📆 View Tasks by Timeframe
+
+Quickly view:
+
+Tasks for Today
+
+Tasks for the Next 7 Days
+
+Tasks under a specific List
+
+
+🌙 Toggle Dark Mode
+
+Switch between light and dark themes for a more comfortable UI.
+
+![Dark Mode](https://github.com/NullUser3/tarea-todo/blob/master/screenshots/screencapture-localhost-3000-lists-deefa728-72d8-43b1-8753-2725076547a0-2025-06-28-04_01_40.png)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
