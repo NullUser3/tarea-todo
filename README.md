@@ -121,8 +121,8 @@ To run this project locally, follow the steps below:
    ```sh
    git clone https://github.com/NullUser3/tarea-todo
    cd tarea-todo
-   ```  
-   
+   ``` 
+   <br />
 3. Set Up the Database
 Open MySQL and create a new database (e.g., tarea_db).
 
