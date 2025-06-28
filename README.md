@@ -116,6 +116,7 @@ Git
 
 To run this project locally, follow the steps below:
 
+<br />
 1. Clone the Repository
    
    ```sh
