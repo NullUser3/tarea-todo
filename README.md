@@ -170,12 +170,14 @@ Access your personalized to-do list by creating an account or logging in securel
 
 ![Login Page](https://github.com/NullUser3/tarea-todo/blob/master/screenshots/screencapture-localhost-3000-login-2025-06-28-03_12_24.png)
 
+<br /><br />
 🗂️ Create Custom Lists
 
 Easily organize tasks by creating your own lists (e.g., Work, Personal, Shopping).
 
 ![Add List](https://github.com/NullUser3/tarea-todo/blob/master/screenshots/screencapture-localhost-3000-lists-deefa728-72d8-43b1-8753-2725076547a0-2025-06-28-04_00_58.png)
 
+<br /><br />
 🕒 Add Tasks with Detailed Options
 
 When adding a task, you can set:
@@ -188,6 +190,7 @@ Reminders
 
 ![Task Options](https://github.com/NullUser3/tarea-todo/blob/master/screenshots/screencapture-localhost-3000-lists-deefa728-72d8-43b1-8753-2725076547a0-2025-06-28-04_01_24.png)
 
+<br /><br />
 📆 View Tasks by Timeframe
 
 Quickly view:
