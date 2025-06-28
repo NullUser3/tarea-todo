@@ -186,7 +186,7 @@ Tasks for Today
 Tasks for the Next 7 Days
 
 Tasks under a specific List
-<br/>
+<br>
 
 🌙 Toggle Dark Mode
 
