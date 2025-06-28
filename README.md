@@ -126,7 +126,7 @@ To run this project locally, follow the steps below:
 3. Set Up the Database
 Open MySQL and create a new database (e.g., tarea_db).
 
-Import the provided SQL schema located at:
+- Import the provided SQL schema located at:
 https://github.com/NullUser3/tarea-todo/blob/master/database_schema.sql
 
 4. Backend Setup (Spring Boot)
@@ -148,9 +148,9 @@ https://github.com/NullUser3/tarea-todo/blob/master/database_schema.sql
 8. Access the App
 Once both servers are running:
 
-Frontend: http://localhost:3000
+- Frontend: http://localhost:3000
 
-Backend (default): http://localhost:8080
+- Backend (default): http://localhost:8080
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
