@@ -97,7 +97,7 @@ This project demonstrates my full-stack development skills, from backend authent
 ## Getting Started
 
 This guide will help you run the project locally for development and testing purposes.
-
+<br /><br />
 ### Prerequisites
 
 Node.js (v14 or higher)
@@ -111,7 +111,7 @@ Maven (comes with Spring Boot starter project)
 MySQL (running locally)
 
 Git
-
+<br /><br />
 ### Installation
 
 To run this project locally, follow the steps below:
@@ -128,7 +128,7 @@ Open MySQL and create a new database (e.g., tarea_db).
 
 - Import the provided SQL schema located at:
 https://github.com/NullUser3/tarea-todo/blob/master/database_schema.sql
-
+<br />
 4. Backend Setup (Spring Boot)
    
    ```sh
@@ -136,7 +136,7 @@ https://github.com/NullUser3/tarea-todo/blob/master/database_schema.sql
    # Make sure to configure your MySQL credentials in src/main/resources/application.properties
    ./mvnw spring-boot:run
    ```
-   
+   <br />
 6. Frontend Setup (React – Create React App)
    
    ```sh
@@ -144,7 +144,7 @@ https://github.com/NullUser3/tarea-todo/blob/master/database_schema.sql
    npm install
    npm start
    ```
-   
+   <br />
 8. Access the App
 Once both servers are running:
 
@@ -192,7 +192,7 @@ Tasks for Today
 Tasks for the Next 7 Days
 
 Tasks under a specific List
-<br>
+<br />
 
 🌙 Toggle Dark Mode
 
