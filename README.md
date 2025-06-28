@@ -197,8 +197,8 @@ Tasks for Today
 Tasks for the Next 7 Days
 
 Tasks under a specific List
-<br />
 
+<br /><br />
 🌙 Toggle Dark Mode
 
 Switch between light and dark themes for a more comfortable UI.
