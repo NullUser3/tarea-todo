@@ -121,13 +121,17 @@ To run this project locally, follow the steps below:
    ```sh
    git clone https://github.com/NullUser3/tarea-todo
    cd tarea-todo
-   ``` 
-   <br />
+   ```
+    
+<br />
 3. Set Up the Database
+
 Open MySQL and create a new database (e.g., tarea_db).
 
 - Import the provided SQL schema located at:
+
 https://github.com/NullUser3/tarea-todo/blob/master/database_schema.sql
+
 <br />
 4. Backend Setup (Spring Boot)
    
