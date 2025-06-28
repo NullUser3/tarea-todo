@@ -117,30 +117,36 @@ Git
 To run this project locally, follow the steps below:
 
 1. Clone the Repository
+   
    ```sh
    git clone https://github.com/NullUser3/tarea-todo
    cd tarea-todo
    ```
-2. Set Up the Database
+   
+3. Set Up the Database
 Open MySQL and create a new database (e.g., tarea_db).
 
 Import the provided SQL schema located at:
 https://github.com/NullUser3/tarea-todo/blob/master/database_schema.sql
 
 4. Backend Setup (Spring Boot)
+   
    ```sh
    cd backend
    # Make sure to configure your MySQL credentials in src/main/resources/application.properties
    ./mvnw spring-boot:run
    ```
-5. Frontend Setup (React – Create React App)
+   
+6. Frontend Setup (React – Create React App)
+   
    ```sh
    cd frontend
    npm install
    npm start
    ```
-6. Access the App
-   Once both servers are running:
+   
+8. Access the App
+Once both servers are running:
 
 Frontend: http://localhost:3000
 
