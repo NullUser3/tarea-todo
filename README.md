@@ -83,16 +83,19 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Tarea is a personalized to-do list web app built with React, Spring Boot, Tailwind CSS, and MySQL, using JWT authentication for secure sign-up and login.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+Key Features:
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+🔐 User Authentication – Secure sign-up and login using JSON Web Tokens (JWT)
 
-Use the `BLANK_README.md` to get started.
+🗂 Custom Lists – Create and manage your own categorized task lists
+
+📅 Smart Views – View tasks due Today, in the Next 7 Days, or by specific lists
+
+🌙 Dark Mode – Toggle between light and dark themes for a comfortable experience
+
+This project demonstrates my full-stack development skills, from backend authentication to UI design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,39 +116,55 @@ Use the `BLANK_README.md` to get started.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This guide will help you run the project locally for development and testing purposes.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Node.js (v14 or higher)
+
+npm or yarn
+
+Java JDK (17 or higher)
+
+Maven (comes with Spring Boot starter project)
+
+MySQL (running locally)
+
+Git
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+To run this project locally, follow the steps below:
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the Repository
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/NullUser3/tarea-todo
+   cd tarea-todo
    ```
-3. Install NPM packages
+2. Set Up the Database
+Open MySQL and create a new database (e.g., tarea_db).
+
+Import the provided SQL schema located at:
+https://github.com/NullUser3/tarea-todo/blob/master/database_schema.sql
+
+4. Backend Setup (Spring Boot)
    ```sh
+   cd backend
+   # Make sure to configure your MySQL credentials in src/main/resources/application.properties
+   ./mvnw spring-boot:run
+   ```
+5. Frontend Setup (React – Create React App)
+   ```sh
+   cd frontend
    npm install
+   npm start
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
+6. Access the App
+   Once both servers are running:
+
+Frontend: http://localhost:3000
+
+Backend (default): http://localhost:8080
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -161,52 +180,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Top contributors:
-
-<a href="https://github.com/othneildrew/Best-README-Template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=othneildrew/Best-README-Template" alt="contrib.rocks image" />
-</a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- LICENSE -->
 ## License
 
-Distributed under the Unlicense License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -215,9 +192,9 @@ Distributed under the Unlicense License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Ahmed Mohamed - ahmed.dev37@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/NullUser3/tarea-todo](https://github.com/NullUser3/tarea-todo)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
