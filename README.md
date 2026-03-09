@@ -235,7 +235,6 @@ Project Link: [https://github.com/NullUser3/tarea-todo](https://github.com/NullU
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
 * [Img Shields](https://shields.io)
 * [Font Awesome](https://fontawesome.com)
@@ -266,3 +265,4 @@ Use this space to list resources you find helpful and would like to give credit 
 
 [MySQL]: https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white
 [MySQL-url]: https://www.mysql.com/
+
